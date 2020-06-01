@@ -54,7 +54,7 @@ def get_articles_request(keywords, num_articles=100):
     # for keywords in KEYWORDS:
     payload = {"action": "getArticles", "keyword": keywords, "articlesPage": 1, "articlesSortBy": "date",
                "articlesSortByAsc": False, "articlesArticleBodyLen": -1, "resultType": "articles",
-               "dataType": ["news", "pr"], "apiKey": "d454cb01-2c7e-4740-b4f3-01113747e508",
+               "dataType": ["news", "pr"], "apiKey": "",
                "forceMaxDataTimeWindow": 31,
                "articlesCount": num_articles}
 
